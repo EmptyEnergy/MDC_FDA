@@ -8,14 +8,16 @@ Full Disk Access with MDC
 5. in patchddi change the numbers to your ios version + change the UDID of the app in patchddi file
 6. execute patchdii after that execute signddi
 
-Example:
-./patchddi.sh
+   Example:
+   ./patchddi.sh
 
 7.Use DirtyJIT to replace iPhone.pem
 8. Mount the DDI
 
-Example:
-ideviceimagemounter (DDI.dmg) (DDI.dmg.signature)
+   Example:
+   ideviceimagemounter (DDI.dmg) (DDI.dmg.signature)
+   Note : if you get an error while the process close Xcode on your Mac and reboot your iPhone
+   After that replace iphone.pem again with Dirty JIT
 
 9. Open FileTroller on you device and press on the Button
 10. Now you have FDA
