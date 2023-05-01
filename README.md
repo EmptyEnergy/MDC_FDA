@@ -23,3 +23,4 @@ After that replace iphone.pem again with DirtyJIT... DirtyJIT is an ios app
 9. Open FileTroller on you device and press on the Button
 10. Now you have FDA
 11. connect to the daemon over iSH (nc 0.0.0.0 1337) or over your computer (nc (iP Adress here) 1337)
+connected uou need to run "tccd" to escape the Sandbox
