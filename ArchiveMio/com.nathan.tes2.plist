@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.nathan.test</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/var/containers/Bundle/Application/EC5CE1E7-2362-4192-BC5C-6B25A23145AC/FileTroller.app/FileTroller</string>
+		<string>-n</string>
+		<string>/var/containers/Bundle/Application/EC5CE1E7-2362-4192-BC5C-6B25A23145AC/FileTroller.app/card.JPG</string>
+		<string>-b</string>
+	</array>
+	<key>StandardOutPath</key>
+	<string>/tmp/FileSwitcher.log</string>
+        <key>StandardErrorPath</key>
+        <string>/tmp/FileSwitcher.log</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>inetdCompatibility</key>
+	<dict>
+		<key>Wait</key>
+		<false/>
+	</dict>
+	<key>Sockets</key>
+	<dict>
+		<key>TrollingServerSocket</key>
+		<dict>
+			<key>SockServiceName</key>
+			<string>24603</string>
+		</dict>
+	</dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>UserName</key>
+	<string>root</string>
+</dict>
+</plist>
