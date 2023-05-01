@@ -11,6 +11,12 @@ Full Disk Access with MDC
 Example:
 ./patchddi.sh
 
-7. Open FileTroller on you device and press on the Button
-8. Now you have FDA
-9. connect to the daemon over iSH (nc 0.0.0.0 1337) or over your computer (nc (iP Adress here) 1337)
+7.Use DirtyJIT to replace iPhone.pem
+8. Mount the DDI
+
+Example:
+ideviceimagemounter (DDI.dmg) (DDI.dmg.signature)
+
+9. Open FileTroller on you device and press on the Button
+10. Now you have FDA
+11. connect to the daemon over iSH (nc 0.0.0.0 1337) or over your computer (nc (iP Adress here) 1337)
