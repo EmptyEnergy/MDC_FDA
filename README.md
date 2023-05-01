@@ -11,7 +11,7 @@ Full Disk Access with MDC
 Example:
 ./patchddi.sh
 
-7.Use DirtyJIT to replace iPhone.pem
+7. Use DirtyJIT to replace iPhone.pem
 8. Mount the DDI
 
 Example:
