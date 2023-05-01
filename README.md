@@ -16,6 +16,7 @@ Example:
 
 Example:
 ideviceimagemounter (DDI.dmg) (DDI.dmg.signature)
+
 Note : if you get an error while the process close Xcode on your Mac and reboot your iPhone
 After that replace iphone.pem again with Dirty JIT
 
