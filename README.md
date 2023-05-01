@@ -13,4 +13,4 @@ Example:
 
 7. Open FileTroller on you device and press on the Button
 8. Now you have FDA
-9. connect to the daemon over iSH (nc 0.0.0.0 1337) or over your computer (nc <iPAdress> 1337)
+9. connect to the daemon over iSH (nc 0.0.0.0 1337) or over your computer (nc (iP Adress here) 1337)
